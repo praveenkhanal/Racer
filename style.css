@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-image: url('./Aerial08.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	overflow-wrap: 
+	
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+	font-size: 150%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+h1{
+	font-size: 400%;
+	font-weight: bold;
+	margin-top: 200px;
+	text-align: center;
+
+}
+.button{
+	font-size: 300%;
+	text-transform: uppercase;
+	color: #bf55ec;
+	border: 2px solid;
+	position: relative;
+	left: 40%;
+	margin-top: 50px;
+}
+img{
+	size: 400px 400px;
+}
